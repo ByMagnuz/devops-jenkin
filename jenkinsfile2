@@ -1,0 +1,39 @@
+pipeline {
+    agent any
+
+    options {
+        // Configuración general
+    }
+
+    parameters {
+        // Parámetros del usuario
+    }
+
+    environment {
+        // Variables de entorno
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                // Obtener fuentes
+            }
+        }
+
+        stage('Build') {
+            steps {
+                // Compilar o construir
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                // Desplegar
+            }
+        }
+    }
+
+    post {
+        // Acciones al finalizar
+    }
+}
