@@ -18,6 +18,7 @@ pipeline {
     environment {
         LAB_REPOSITORY = '/opt/devops-lab/nexus-sim'
         LAB_ENVIRONMENTS = '/opt/devops-lab/environments'
+        DBB_REPORT = '/opt/dbb/toolkit/reports'
     }
 
     stages {
